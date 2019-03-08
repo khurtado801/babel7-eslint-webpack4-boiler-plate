@@ -29,10 +29,11 @@
     "style-loader": "0.23.1",
     "webpack": "4.19.0",
     "webpack-cli": "3.1.0",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "axios": "0.18.0",
+    "missing": "0.0.1",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-redux": "5.0.7",
