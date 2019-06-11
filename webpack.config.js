@@ -1,6 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// Try the below if above throws error
+// const path = require('path');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
 	entry: path.join(__dirname,'src','index.js'),
 	output: {
