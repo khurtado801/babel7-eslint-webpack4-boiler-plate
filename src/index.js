@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
-import './index.css';
+import './styles/style.css';
 
 /**
  * ReactDOM has two arguements passed in
@@ -10,7 +11,9 @@ import './index.css';
  * The second arguement is where we want to render it
  */
 ReactDOM.render(
-	<App />,
-	document.getElementById('root')
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>
+	, document.getElementById('root')
 );
 
